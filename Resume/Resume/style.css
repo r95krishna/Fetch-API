@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:#f7f7f7;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+
+.flex-conainer{
+    height: 180px;
+    margin-left: 34px;
+    margin-right: 23px;
+}
+
+.parent{
+    position: relative;
+    right: 3px;
+    top: -90px;
+    
+}
+
+
+
+.vline-left{
+    position: relative;
+    left: 31%;
+    border-left: 3px solid #f1f1f1;
+    height: 100%;
+    top: 0px;
+}
+
+
+.vline-right{
+    position: absolute;
+    left: 69%;
+    border-left: 3px solid #f1f1f1;
+    height: 490%;
+    top: -300%;
+    background-color: #777674;
+}
+
+
+.child{
+    position: absolute;
+    left: 48%;
+    top: 50px;
+}
+
+
+.basic-info{
+    position: relative;
+    top: -145px;
+    left:9%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#profile-img{
+    position: relative;
+    top: -120px;
+    width: 9%;
+    float: right;
+    right: 18%;
+
+}
+hr { 
+    position: relative; 
+    top: 0px; 
+    border: none; 
+    height: 3px; 
+    background: #539eaf; 
+    margin-bottom: 50px; 
+    width:80%
+}
+
+.work-exp{
+    display: flex;
+    left: 70px;
+    top: 5px;
+    margin-left: 0px;
+    margin-right: 201px;
+       
+}
+
+.wrk-exp-icon{
+    position: relative;
+    right: 46px;
+    top: 96px;
+    width: 71px;
+    font-size: 90px;
+    color: #43a3ad;
+
+}
+
+
+.skill-icon{
+    position: relative;
+    right: 46px;
+    top: 96px;
+    width: 71px;
+    font-size: 50px;
+    color: #43a3ad;
+    font-size: 90px;
+    left: -67px;
+}
+
+
+.proj-icon{
+
+    display: block;
+    position: relative;
+    font-size: 90px;
+    right: 8%;
+    color: #43a3ad;
+    top: 250px;
+}
+.edu-icon{
+    position: relative;
+    right: 48px;
+    width: 71px;
+    color: #43a3ad;
+    font-size: 90px;
+    left: 2%;
+    top: 37px;
+}
+
+
+.main-container{
+    position: relative;
+    left: 68px;
+    right: 27px;
+
+}
+
+.skills{
+    display: flex;
+    left: 70px;
+    top: 5px;
+    margin-left: 93px;
+    margin-right: 98px;
+}
+.sub-header{
+    position: relative;
+    left:25px;
+   
+}
+
+.project{
+    display: flex;
+    position: relative;
+    left: 10%;
+    top: -101px;
+}
+
+.education{
+    display: block;
+    position: relative;
+    right: 15%;
+}
+
+.edu-para{
+    display: flex;
+    position: relative;
+    left: 36%;
+    top: -28px;
+}
+
+.edu-header{
+    display: flex;
+    position: relative;
+    left: 20%;
+}
+
+.edu-details{
+    display: block;
+    position: relative;
+    top: 40px;
+}
+.proj-1{
+    position: relative;
+    top: 90px;
+    margin-right: 9px;
+    right: 24px; 
+
+
+}
+
+.proj-2{
+    position: relative;
+    top: 90px;
+    margin-right: 250px;
+}
+
+.edu-container{
+    display: flex;
+    position: relative;
+    bottom: 12px;
+}
+
+.education{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 34%;
+    bottom: 46px;
+}
+
+.personal-details{
+    position: relative;
+    left: 14%;
+}
+
+.per-dtl-icon{
+
+    position: relative;
+    right: 12%;
+    font-size: 90px;
+    color: #43a3ad;
+    top: 230px;
+}
+
+.per-title{
+    position: relative;
+    left: 22%;
+    bottom: 40px;
+}
+
+.personal-details{
+    position: relative;
+    right: 0%;
+    bottom: 100px;
+}
+
+.per-hr{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -73px;
+}
+
+.declaration{
+    display: block;
+    position: relative;
+    left: 39%;
+    bottom: 98px;
+}
+.dec-body{
+    position: relative;
+    right: 25%;
+}
+.dec-names{
+    position: relative;
+    right: 25%;
+}
+.footer{
+
+    background-color: #43a3ad;
+    border: 20px;
+}
+
+.dec-icon{
+    position: relative;
+    font-size: 90px;
+    color: #43a3ad;
+    top: 134px;
+    right: 37%;
+}
